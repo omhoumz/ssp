@@ -1,0 +1,95 @@
+.table>.thead-dark>tr>th {
+    color: #ffffff;
+    background-color: #373a3c;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.consult-table > table > tbody > tr > td:first-child() {
+	min-width: 400px;
+}
+.regle-count {
+	font-size: 14px;
+	font-style: italic;
+	margin-left: 5px;
+	text-transform: capitalize;
+}
+.add-opts {
+	margin-top: 20px;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.05);
+}
+.tacheHead {
+	text-transform: capitalize;
+	font-size: 20px;
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+.tacheDate {
+	font-size: 13px;
+	font-style: italic;
+	font-weight: 100;
+}
+.tacheContainer {
+	margin-top: 20px;
+	border: 1px solid #88cff3;
+	border-radius: 2px;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.08);
+}
+.tacheContainer hr {
+	margin: 0;
+}
+.tache-heading {
+	margin-bottom: 9px;
+	margin-top: 0;
+}
+
+.info-group-names {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+
+}
+.tag-val-item:nth-child(1) {
+	font-weight: bold;
+}
+.tag-name {
+	width: 50%;
+	font-weight: bold;
+	text-decoration: underline;
+	flex-wrap: wrap;
+}
+
+
+
+
+.detail-col-section {
+	padding: 14px;
+	background-color: #777;
+}
+.detail-regle {background-color: #00BCD4;}
+.detail-infog {background-color: #26A69A;}
+.detail-tache {background-color: #ffb300;}
+.details-col-heading {
+	color: #3c3c3c;
+	margin: 0;
+	padding: 8px 14px 22px;
+}
+.col-detail-p {
+	background-color: #fdfdfd;
+	padding: 14px;
+}
+.detail-download {
+	background-color: transparent;
+	margin: 0;
+	padding: 0;
+}
+.detail-download p {
+	margin-top: 0;
+}
+
+.content .page-heading h2 {
+	margin: 40px 200px 25px;
+	text-align: center;
+	text-transform: capitalize;
+}

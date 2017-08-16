@@ -1,0 +1,230 @@
+::selection {
+  background: #FFC33B; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #FFC33B; /* Gecko Browsers */
+}
+body {
+	font-family: 'roboto', 'Open sans', arial, sans-serif;
+	position: relative;
+}
+input:focus, textarea:focus, button:focus, select:focus, a:focus {
+	outline-color: transparent;
+}
+.text-normal {
+	font-weight: normal;
+}
+.center-content-sm {
+	width: 73%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.center-content-md {
+	width: 85%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.center-content-lg {
+	width: 96%;
+	margin-right: auto;
+	margin-left: auto;
+}
+@media (max-width: 991px) {
+	.center-content-sm, .center-content-md, .center-content-lg {
+		width: 100%;
+	}
+}
+.header {
+	background-color: #8493CA;
+	color: white;
+	border-bottom: 1px solid #6E7BAB;
+	box-shadow: 0 0 0 1px #7C85A4;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 99;
+}
+.logo a {
+	color: white;
+	height: 46px;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	align-self: center;
+}
+@media (max-width:991px){
+	.logo a {
+		margin-left: calc(50% - 50px);
+	}
+}
+#logo-ssp {
+	width: 100px;
+}
+.ssp-pr { fill: #8293C9; }
+.ssp-wt { fill: #ffffff; }
+.navigation {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	-ms-align-items: center;
+	align-items: center;
+}
+@media (max-width:991px) {
+	.navigation {
+		justify-content: space-around;
+	}
+	.navigation > a, .navigation > .compte-link {
+		text-align: center;
+		flex-grow: 1;
+	}
+}
+.navigation > .compte-link > a {
+	color: white;
+	text-decoration: none;
+}
+.navigation > a, .navigation > .compte-link {
+	font-size: 16px;
+	text-decoration: none;
+	margin-left: 1px;
+	padding: 12px 10px;
+	color: white;
+	cursor: pointer;
+	transition: all 0.2s ease-out;
+}
+.navigation > a:hover, .navigation > a.active, .navigation > .compte-link:hover, .navigation > .compte-link:active, .navigation > .compte-link.open {
+	background-color: #707DAC;
+	background-color: rgba(0, 0, 0, .15);
+}
+.navigation > a.login-link {
+	font-style: italic;
+}
+.navigation > a.login-link:hover {
+	text-decoration: underline;
+	background-color: transparent;
+}
+
+.footer {
+	background-color: #353A4C;
+	color: whitesmoke;
+}
+.footer-top {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	display: flex;
+}
+@media (max-width: 991px) {
+	.footer-widjet {
+		margin-bottom: 30px;
+	}
+}
+.footer-widjet > .footer-widjet-heading {
+	color: #dedede;
+	font-weight: bold;
+	font-size: 13px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.footer-widjet > .footer-widjet-body {
+	color: #999;
+}
+.footer-widjet > ul {
+	padding: 0;
+	margin: 0 0 0 7px;
+	list-style: none;
+}
+.footer-widjet > ul > li > a {
+	line-height: 1.6em;
+	font-size: 12px;
+	color: #b9b9b9;
+}
+.footer-rights {
+	padding-top: 11px;
+	padding-bottom: 11px;
+	background-color: #333;
+	color: #777;
+}
+.footer-rights p {
+	margin: 0;
+	padding: 0;
+}
+.footer-rights a {
+	color: #888;
+}
+
+
+
+.content, .wrapContent {
+	margin-top: 46px;
+	margin-bottom: 100px;
+}
+@media (max-width: 991px) {
+	.content, .wrapContent {
+		margin-top: 93px;
+	}
+}
+@media (max-width: 545px) {
+	.content, .wrapContent {
+		margin-top: 139px;
+	}
+}
+
+
+
+.link{
+	}
+
+.paint-bg {
+	margin-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 50px;
+	background-color: #FDFDFD;
+	box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.1);
+}
+
+.page-heading > h1, .page-heading > h2 {
+	display: inline-block;
+	margin-top: 40px;
+	margin-bottom: 25px;
+	font-size: 4.3vh;
+    font-weight: 100;
+    text-transform: uppercase;
+    text-align: left;
+}
+.page-heading > h1 {
+	font-size: 4.3vh;
+}
+.page-heading > h2 {
+	font-size: 3vh;
+}
+.page-heading > h3 {
+	font-size: 2.5vh;
+}
+
+
+.msg {
+	margin-top: 14px;
+	margin-bottom: 14px;
+	padding: 10px 15px;
+}
+.msg-br {
+	border: 1px solid #ddd;
+	border-radius: 2px;
+}
+.bg-default {
+	background-color: #f5f5f5;
+}
+.floating_msg {
+	box-shadow: 6px 6px 15px 2px rgba(0, 0, 0, 0.15);
+	position: relative;
+	z-index: 2;
+}

@@ -1,0 +1,231 @@
+.section {
+	width: 100%;
+	overflow: hidden;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+.section1 {
+	min-height: calc(100vh - 46px);
+	background-color: #e9e9e9;
+	background-image: url(../img/bg-img-1.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center;
+}
+.section1 .inner-section {
+	height: calc(100vh - 192px);
+}
+@media (max-width: 991px) {
+	.section1 {
+		min-height: calc(100vh - 92px);
+	}
+}
+.section2 {
+	background-color: #eeeeee;
+}
+.section3 {
+	background-color: #fefefe;
+}
+.inner-section {
+	position: relative;
+	height: 100%;
+}
+.flex-block-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-self: center;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	position: relative;
+	height: 100%;
+}
+.flex-block-center > div {
+	width: 100%;
+}
+.section-heading {
+	margin-top: 16px;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.section-heading h2 {
+	font-size: 5vh;
+	margin: 0;
+}
+.section-heading-big {
+	margin-bottom: 50px;
+}
+.section-heading-big h1 {
+	display: inline-block;
+	background-color: rgba(132, 147, 202, 0.68);
+	color: white;
+	line-height: 1.2;
+	font-size: 8vh;
+	margin: 0;
+	margin-left: 10px;
+}
+@media (max-width: 991px) {
+	.section-heading-big h1 {
+		font-size: 5vh;
+	}
+}
+.quote-big {
+	color: white;
+	font-size: 3vh;
+	font-weight: 100;
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	justify-content: flex-start;
+}
+.quote-left {
+	display: flex;
+	align-items: flex-start;
+
+}
+.quote-body {
+	width: 62%;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 4vh;
+	text-align: justify;
+}
+@media (max-width: 991px) {
+	.quote-body {
+		font-size: 2.5vh;
+	}
+	.quote-big {
+		margin-left: 10px;
+		margin-right: 10px;
+		font-size: 2vh;
+	}
+}
+@media (max-width: 645px) {
+	.quote-body {
+		width: 100%;
+	}
+}
+.quote-right {
+	display: flex;
+	align-items: flex-end;
+}
+
+.item {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.inner-items {
+	margin: 0 30px;
+	text-align: justify;
+}
+.item-header {
+	margin-bottom: 20px;
+}
+.item-title {
+	font-size: 2em;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 10px;
+	letter-spacing: 2px;
+	color: #5B6179;
+}
+.item-avatar {
+	margin: 0 auto;
+	width: 170px;
+	height: 170px;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 50%;
+	background-color: #FBFBFB;
+	box-shadow: 1px 2px 7px #DCDCDC;
+}
+.item-avatar-1 {
+	background-image: url(../img/item-1-1.png);
+}
+.item-avatar-2 {
+	background-image: url(../img/item-1-2.png);
+}
+.item-avatar-3 {
+	background-image: url(../img/item-1-3.png);
+}
+
+.team-members {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	height: 110px;
+	overflow: hidden;
+}
+.inner-teams {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	flex-wrap: wrap;
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.team-member {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	-ms-align-items: center;
+	align-items: center;
+	padding-left: 0;
+	background-color: #fafafa;
+	border: 1px solid #f7f7f7;
+	border-radius: 2px;
+	overflow: hidden;
+	/* box-shadow: 0 0 3px 0 rgba(0, 0, 0, .15); */
+	width: 100%;
+	height: 100%;
+}
+.team-member-img {
+	margin-right: 4%;
+	height: 100%;
+}
+.team-member-img img {
+	height: 100%;
+}
+.team-member-meta {
+	margin: 0;
+}
+.team-member-name {
+	font-weight: 900;
+	color: #222;
+}
+.team-member-prof {
+	font-weight: 100;
+	font-style: italic;
+}
+.team-chevron {
+	font-size: 50px;
+}
+.chevron-left {
+	text-align: left;
+}
+.chevron-right {
+	text-align: right;
+}
+.team-chevron i {
+	cursor: pointer;
+	opacity: 0.1;
+	transition: opacity 0.12s ease-in-out;
+}
+.team-chevron i:hover {
+	opacity: 0.6;
+}
